@@ -38,7 +38,39 @@
       crossorigin="anonymous"
     ></script>
     <style media="all" id="fa-main"></style>
-  </head>
+
+  <body>
+
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Consuelo Logo"
+          />
+          <img
+            src="images/logo-small.jpeg"
+            class="logo d-block d-md-none"
+            alt="Consuelo Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Consuelo"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Consuelo's Work"> Work</a>
+          </li>
+          <li  class="active">
+            <a href="/contact.html" title="Contact Consuelo"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   <body cz-shortcut-listen="true">
     <div class="content-container container">
       <div class="content">
@@ -63,5 +95,63 @@
         </p>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Consuelo"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:cbautista452@gmail.com"
+          class="email-link"
+          title="Email Consuelo"
+        >
+          cbautista452@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.github.com/cbautista452"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/gabi234g/"
+          target="_blank"
+          title="instragram Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.twitter.com/cbautista452"
+          target="_blank"
+          title="Twitter Profile"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        ✌️ This website was coded by Consuelo Bautista, and is
+        <a
+          href="https://github.com/cbautista452/portfolio-project"
+          target="_blank"
+        >
+          open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
